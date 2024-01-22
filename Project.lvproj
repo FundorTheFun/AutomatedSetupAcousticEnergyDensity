@@ -15,7 +15,7 @@
 		<Item Name="Main_Test.vi" Type="VI" URL="../Main_Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="AFG 3022B.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AFG 3022B/AFG 3022B.lvlib"/>
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
