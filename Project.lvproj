@@ -11,6 +11,30 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Tektronix TBS 2000 Series Acquire Auto Setup Continuous Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Acquire Auto Setup Continuous Waveform.vi"/>
+			<Item Name="Tektronix TBS 2000 Series Acquire Auto Setup Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Acquire Auto Setup Waveform.vi"/>
+			<Item Name="Tektronix TBS 2000 Series Acquire Dual Channel Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Acquire Dual Channel Waveform.vi"/>
+			<Item Name="Tektronix TBS 2000 Series Acquire Single Channel Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Acquire Single Channel Waveform.vi"/>
+			<Item Name="Tektronix TBS 2000 Series I2C Bus Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series I2C Bus Trigger.vi"/>
+			<Item Name="Tektronix TBS 2000 Series Read Immediate Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Read Immediate Measurement.vi"/>
+			<Item Name="Tektronix TBS 2000 Series Search CAN Bus Event.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series Search CAN Bus Event.vi"/>
+			<Item Name="Tektronix TBS 2000 Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Examples/Tektronix TBS 2000 Series.bin3"/>
+		</Item>
+		<Item Name="Private" Type="Folder"/>
+		<Item Name="Public" Type="Folder">
+			<Item Name="Action-Status" Type="Folder"/>
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="Acquisition" Type="Folder"/>
+				<Item Name="Bus" Type="Folder"/>
+				<Item Name="Search" Type="Folder"/>
+				<Item Name="Trigger" Type="Folder"/>
+			</Item>
+			<Item Name="Data" Type="Folder">
+				<Item Name="Low Level" Type="Folder"/>
+			</Item>
+			<Item Name="Utility" Type="Folder"/>
+		</Item>
 		<Item Name="AD2_DO_SDK.lvclass" Type="LVClass" URL="../AD2_DO_SDK_class/AD2_DO_SDK.lvclass"/>
 		<Item Name="AD2_MSO_SDK.lvclass" Type="LVClass" URL="../AD2_MSO_SDK_class/AD2_MSO_SDK.lvclass"/>
 		<Item Name="AD2_SDK.lvclass" Type="LVClass" URL="../AD2_SDK_class/AD2_SDK.lvclass"/>
@@ -22,6 +46,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Main_Test.vi" Type="VI" URL="../Main_Test.vi"/>
 		<Item Name="Olasdwf.lvlib" Type="Library" URL="../Olasdwf/Olasdwf.lvlib"/>
+		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
+		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
