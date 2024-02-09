@@ -46,6 +46,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Main_Test.vi" Type="VI" URL="../Main_Test.vi"/>
 		<Item Name="Olasdwf.lvlib" Type="Library" URL="../Olasdwf/Olasdwf.lvlib"/>
+		<Item Name="TBS2000Series.lvclass" Type="LVClass" URL="../TBS2000Series_class/TBS2000Series.lvclass"/>
 		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
 		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
