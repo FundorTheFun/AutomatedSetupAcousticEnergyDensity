@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -41,6 +42,7 @@
 		<Item Name="AD2_WFG_SDK.lvclass" Type="LVClass" URL="../AD2_WFG_SDK_class/AD2_WFG_SDK.lvclass"/>
 		<Item Name="AFG3022B.lvclass" Type="LVClass" URL="../AFG3022B_class/AFG3022B.lvclass"/>
 		<Item Name="Application.lvclass" Type="LVClass" URL="../Application_class/Application.lvclass"/>
+		<Item Name="FirstStepsRead.vi" Type="VI" URL="../Peltier controller TC/TCxxxx/Examples/FirstStepsRead.vi"/>
 		<Item Name="CetoniPump.lvclass" Type="LVClass" URL="../CetoniPump_class/CetoniPump.lvclass"/>
 		<Item Name="DOConfigureCustomData.ctl" Type="VI" URL="../AD2_DO_SDK_class/DOConfigureCustomData.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -52,6 +54,10 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TCxxxx/Public/Initialize.vi"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;instrlib&gt;/TCxxxx/Public/Utility/Write.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/TCxxxx/Public/Utility/Read.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TCxxxx/Public/Close.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
