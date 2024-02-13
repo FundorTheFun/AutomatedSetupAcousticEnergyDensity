@@ -89,4 +89,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
+	<Item Name="Read Current Probe.vi" Type="VI" URL="../Read Current Probe.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#1!K1(!!(A!!&amp;R651F-S-$!Q5W6S;76T,GRW9WRB=X-!#7^C;G6D&gt;#"J&lt;A!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!A!$!!14:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!M1(!!(A!!&amp;R651F-S-$!Q5W6S;76T,GRW9WRB=X-!#G^C;G6D&gt;#"P&gt;81!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!"!!=#!!%1!!#3!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!$15!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082405376</Property>
+	</Item>
 </LVClass>
