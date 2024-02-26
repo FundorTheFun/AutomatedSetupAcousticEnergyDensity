@@ -51,6 +51,7 @@
 		<Item Name="TBS2000Series.lvclass" Type="LVClass" URL="../TBS2000Series_class/TBS2000Series.lvclass"/>
 		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
 		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
+		<Item Name="TC0608.lvclass" Type="LVClass" URL="../TC0608_class/TC0608.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
@@ -112,6 +113,8 @@
 			<Item Name="labbCAN_Valve_API.lvlib" Type="Library" URL="../CETONI_SDK/lib/labview/labbCAN_Valve_API/labbCAN_Valve_API.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="dwf.dll" Type="Document" URL="/../Windows/System32/dwf.dll"/>
+			<Item Name="TCxxxx.lvlib" Type="Library" URL="../Peltier controller TC/TCxxxx/TCxxxx.lvlib"/>
+			<Item Name="Adresse.ctl" Type="VI" URL="../Peltier controller TC/TCxxxx/Controls/Adresse.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
