@@ -51,6 +51,7 @@
 		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
 		<Item Name="TC0608.lvclass" Type="LVClass" URL="../TC0608_class/TC0608.lvclass"/>
 		<Item Name="SaveData.lvclass" Type="LVClass" URL="../SaveData_class/SaveData.lvclass"/>
+		<Item Name="Main_v2_AE.vi" Type="VI" URL="../Main_v2_AE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
