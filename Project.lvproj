@@ -202,6 +202,7 @@
 				<Item Name="ex_ExcelAdvancedConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_ExcelAdvancedConfig.ctl"/>
 				<Item Name="ex_ExcelAllConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_ExcelAllConfig.ctl"/>
 				<Item Name="ex_subExcelFileWrite.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_subExcelFileWrite.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="labbCAN_Bus_API.lvlib" Type="Library" URL="../CETONI_SDK/lib/labview/labbCAN_Bus_API/labbCAN_Bus_API.lvlib"/>
 			<Item Name="labbCAN_Pump_API.lvlib" Type="Library" URL="../CETONI_SDK/lib/labview/labbCAN_Pump_API/labbCAN_Pump_API.lvlib"/>
