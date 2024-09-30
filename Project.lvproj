@@ -43,15 +43,16 @@
 		<Item Name="AFG3022B.lvclass" Type="LVClass" URL="../AFG3022B_class/AFG3022B.lvclass"/>
 		<Item Name="Application.lvclass" Type="LVClass" URL="../Application_class/Application.lvclass"/>
 		<Item Name="CetoniPump.lvclass" Type="LVClass" URL="../CetoniPump_class/CetoniPump.lvclass"/>
-		<Item Name="DOConfigureCustomData.ctl" Type="VI" URL="../AD2_DO_SDK_class/DOConfigureCustomData.ctl"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Olasdwf.lvlib" Type="Library" URL="../Olasdwf/Olasdwf.lvlib"/>
 		<Item Name="TBS2000Series.lvclass" Type="LVClass" URL="../TBS2000Series_class/TBS2000Series.lvclass"/>
-		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
-		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
 		<Item Name="TC0608.lvclass" Type="LVClass" URL="../TC0608_class/TC0608.lvclass"/>
 		<Item Name="SaveData.lvclass" Type="LVClass" URL="../SaveData_class/SaveData.lvclass"/>
+		<Item Name="DOConfigureCustomData.ctl" Type="VI" URL="../AD2_DO_SDK_class/DOConfigureCustomData.ctl"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Main_v2_AE.vi" Type="VI" URL="../Main_v2_AE.vi"/>
+		<Item Name="Main_v3_AE.vi" Type="VI" URL="../Main_v3_AE.vi"/>
+		<Item Name="Olasdwf.lvlib" Type="Library" URL="../Olasdwf/Olasdwf.lvlib"/>
+		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
+		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
