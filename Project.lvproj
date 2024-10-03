@@ -36,12 +36,12 @@
 			</Item>
 			<Item Name="Utility" Type="Folder"/>
 		</Item>
+		<Item Name="Application.lvclass" Type="LVClass" URL="../Application_class/Application.lvclass"/>
 		<Item Name="AD2_DO_SDK.lvclass" Type="LVClass" URL="../AD2_DO_SDK_class/AD2_DO_SDK.lvclass"/>
 		<Item Name="AD2_MSO_SDK.lvclass" Type="LVClass" URL="../AD2_MSO_SDK_class/AD2_MSO_SDK.lvclass"/>
 		<Item Name="AD2_SDK.lvclass" Type="LVClass" URL="../AD2_SDK_class/AD2_SDK.lvclass"/>
 		<Item Name="AD2_WFG_SDK.lvclass" Type="LVClass" URL="../AD2_WFG_SDK_class/AD2_WFG_SDK.lvclass"/>
 		<Item Name="AFG3022B.lvclass" Type="LVClass" URL="../AFG3022B_class/AFG3022B.lvclass"/>
-		<Item Name="Application.lvclass" Type="LVClass" URL="../Application_class/Application.lvclass"/>
 		<Item Name="CetoniPump.lvclass" Type="LVClass" URL="../CetoniPump_class/CetoniPump.lvclass"/>
 		<Item Name="TBS2000Series.lvclass" Type="LVClass" URL="../TBS2000Series_class/TBS2000Series.lvclass"/>
 		<Item Name="TC0608.lvclass" Type="LVClass" URL="../TC0608_class/TC0608.lvclass"/>
@@ -53,9 +53,18 @@
 		<Item Name="Olasdwf.lvlib" Type="Library" URL="../Olasdwf/Olasdwf.lvlib"/>
 		<Item Name="Tektronix TBS 2000 Series.aliases" Type="Document" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.aliases"/>
 		<Item Name="Tektronix TBS 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TBS 2000 Series/Tektronix TBS 2000 Series.lvlib"/>
+		<Item Name="Main_v4_OJ.vi" Type="VI" URL="../Main_v4_OJ.vi"/>
+		<Item Name="Experiment.lvclass" Type="LVClass" URL="../Experiment_class/Experiment.lvclass"/>
+		<Item Name="TDMSLogger.lvclass" Type="LVClass" URL="../TDMSLogger__class/TDMSLogger_class/TDMSLogger.lvclass"/>
+		<Item Name="AFG3022B_OJ.lvclass" Type="LVClass" URL="../AFG3022B_OJ_class/AFG3022B_OJ.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Utility/Error Query.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Initialize.vi"/>
+				<Item Name="Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Configure/Configure Standard Waveform.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Utility/Reset.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Close.vi"/>
+				<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Private/Default Instrument Setup.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -204,6 +213,7 @@
 				<Item Name="ex_ExcelAllConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_ExcelAllConfig.ctl"/>
 				<Item Name="ex_subExcelFileWrite.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_subExcelFileWrite.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 			</Item>
 			<Item Name="labbCAN_Bus_API.lvlib" Type="Library" URL="../CETONI_SDK/lib/labview/labbCAN_Bus_API/labbCAN_Bus_API.lvlib"/>
 			<Item Name="labbCAN_Pump_API.lvlib" Type="Library" URL="../CETONI_SDK/lib/labview/labbCAN_Pump_API/labbCAN_Pump_API.lvlib"/>
@@ -217,6 +227,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="../../PowerScan/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 			<Item Name="dwf.dll" Type="Document" URL="/../Windows/System32/dwf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
