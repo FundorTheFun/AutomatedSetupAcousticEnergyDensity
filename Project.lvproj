@@ -59,12 +59,7 @@
 		<Item Name="AFG3022B_OJ.lvclass" Type="LVClass" URL="../AFG3022B_OJ_class/AFG3022B_OJ.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Utility/Error Query.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Initialize.vi"/>
-				<Item Name="Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Configure/Configure Standard Waveform.vi"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Utility/Reset.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Public/Close.vi"/>
-				<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Private/Default Instrument Setup.vi"/>
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -227,7 +222,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="../../PowerScan/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 			<Item Name="dwf.dll" Type="Document" URL="/../Windows/System32/dwf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
